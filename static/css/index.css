@@ -1,0 +1,108 @@
+.main-container {
+    font-family: Open Sans, Arial, sans-serif;
+    max-width: 100%;
+    background-color: #212529;
+    color: white;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.index-heading {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 1.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.index-description {
+    color: #bdbdbd;
+}
+
+.quotation-card-heading {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #ee2737;
+}
+
+.whatsapp-button {
+    line-height: 2rem;
+    margin-bottom: 0px;
+}
+
+.social-media-card-heading {
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+.index-subheading {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.card {
+    background-color: #15171a;
+    border-radius: 0;
+    margin-bottom: 0.75rem !important;
+}
+
+.card-link {
+    text-decoration: none;
+    color: white;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.card-link:hover {
+    color: rgb(160, 159, 159);
+}
+
+/* Carousel */
+.carousel-inner .carousel-item.active, .carousel-inner .carousel-item-next, .carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+.carousel-rating {
+    color: gold
+}
+
+@media (max-width: 575px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+@media (min-width: 576px) {
+    
+    .carousel-inner .carousel-item-end.active, .carousel-inner .carousel-item-next {
+        transform: translateX(33.3%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, .carousel-inner .carousel-item-prev {
+        transform: translateX(-33.3%);
+    }
+}
+
+.carousel-inner .carousel-item-end, .carousel-inner .carousel-item-start { 
+    transform: translateX(0);
+}
+
+/* Media */
+@media (min-width: 1200px) {
+    .card {
+        margin-bottom: 0rem !important; 
+    }
+}
+
+@media (max-width: 1200px) {
+    .xl-hide {
+        display: none;
+    }
+}
