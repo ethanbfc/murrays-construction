@@ -8,5 +8,4 @@ urlpatterns = [
     path('tab-3/', Tab3View.as_view(), name="tab-3"),
     path('tab-4/', Tab4View.as_view(), name="tab-4"),
     path('tab-5/', Tab5View.as_view(), name="tab-5"),
-    path('tab-6/', Tab6View.as_view(), name="tab-6"),
 ]

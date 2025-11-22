@@ -17,6 +17,3 @@ class Tab4View(TemplateView):
 
 class Tab5View(TemplateView):
     template_name = 'tab_5.html'
-
-class Tab6View(TemplateView):
-    template_name = 'tab_6.html'
