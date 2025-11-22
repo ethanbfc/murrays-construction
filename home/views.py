@@ -3,8 +3,8 @@ from django.views.generic import TemplateView
 class HomeView(TemplateView):
     template_name = 'index.html'
 
-class Tab1View(TemplateView):
-    template_name = 'tab_1.html'
+class PlasteringView(TemplateView):
+    template_name = 'plastering.html'
 
 class Tab2View(TemplateView):
     template_name = 'tab_2.html'
