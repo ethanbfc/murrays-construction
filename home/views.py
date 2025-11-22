@@ -6,8 +6,8 @@ class HomeView(TemplateView):
 class PlasteringView(TemplateView):
     template_name = 'plastering.html'
 
-class Tab2View(TemplateView):
-    template_name = 'tab_2.html'
+class BuildingWorksView(TemplateView):
+    template_name = 'building_works.html'
 
 class Tab3View(TemplateView):
     template_name = 'tab_3.html'
