@@ -29,7 +29,9 @@
     font-weight: bolder;
     text-transform: uppercase;
     font-size: 2rem;
-    color: #d0b870;
+    background-image: linear-gradient(to bottom, #F3E998 0%, #B69452 100%);
+    color: transparent;
+    background-clip: text;
 }
 
 .whatsapp-button {
