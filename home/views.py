@@ -12,8 +12,8 @@ class BuildingWorksView(TemplateView):
 class MediaWallsView(TemplateView):
     template_name = 'media_walls.html'
 
-class LandscapingAndFencingView(TemplateView):
-    template_name = 'landscaping_and_fencing.html'
+class LandscapingView(TemplateView):
+    template_name = 'landscaping.html'
 
 class ExtensionsAndRenovationsView(TemplateView):
     template_name = 'extensions_and_renovations.html'
